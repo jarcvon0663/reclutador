@@ -1,0 +1,908 @@
+[
+  {
+    "continent": "América",
+    "code": "AI",
+    "name": "Anguila 🇦🇮",
+    "cities": ["The Valley", "South Hill", "Stoney Ground", "The Quarter", "Island Harbour"]
+  },
+  {
+    "continent": "América",
+    "code": "AG",
+    "name": "Antigua y Barbuda 🇦🇬",
+    "cities": ["Saint John's", "All Saints", "Liberta", "Potters Village", "Bolans"]
+  },
+  {
+    "continent": "América",
+    "code": "AR",
+    "name": "Argentina 🇦🇷",
+    "cities": ["Buenos Aires", "Córdoba", "Rosario", "Mendoza", "La Plata"]
+  },
+  {
+    "continent": "América",
+    "code": "AW",
+    "name": "Aruba 🇦🇼",
+    "cities": ["Oranjestad", "San Nicolaas", "Noord", "Santa Cruz", "Paradera"]
+  },
+  {
+    "continent": "América",
+    "code": "BS",
+    "name": "Bahamas 🇧🇸",
+    "cities": ["Nassau", "Freeport", "Lucaya", "West End", "Coopers Town"]
+  },
+  {
+    "continent": "América",
+    "code": "BB",
+    "name": "Barbados 🇧🇧",
+    "cities": ["Bridgetown", "Speightstown", "Oistins", "Bathsheba", "Holetown"]
+  },
+  {
+    "continent": "América",
+    "code": "BZ",
+    "name": "Belice 🇧🇿",
+    "cities": ["Belize City", "San Ignacio", "Belmopan", "San Pedro", "Orange Walk"]
+  },
+  {
+    "continent": "América",
+    "code": "BM",
+    "name": "Bermudas 🇧🇲",
+    "cities": ["Hamilton", "Saint George", "Somerset Village", "Flatts Village", "Tucker's Town"]
+  },
+  {
+    "continent": "América",
+    "code": "BO",
+    "name": "Bolivia 🇧🇴",
+    "cities": ["La Paz", "Santa Cruz de la Sierra", "Cochabamba", "Sucre", "Oruro"]
+  },
+  {
+    "continent": "América",
+    "code": "BR",
+    "name": "Brasil 🇧🇷",
+    "cities": ["São Paulo", "Río de Janeiro", "Brasilia", "Salvador", "Fortaleza"]
+  },
+  {
+    "continent": "América",
+    "code": "CA",
+    "name": "Canadá 🇨🇦",
+    "cities": ["Toronto", "Montreal", "Vancouver", "Calgary", "Ottawa"]
+  },
+  {
+    "continent": "América",
+    "code": "KY",
+    "name": "Islas Caimán 🇰🇾",
+    "cities": ["George Town", "West Bay", "Bodden Town", "East End", "North Side"]
+  },
+  {
+    "continent": "América",
+    "code": "CL",
+    "name": "Chile 🇨🇱",
+    "cities": ["Santiago", "Valparaíso", "Concepción", "La Serena", "Antofagasta"]
+  },
+  {
+    "continent": "América",
+    "code": "CO",
+    "name": "Colombia 🇨🇴",
+    "cities": ["Bogotá", "Medellín", "Cali", "Barranquilla", "Cartagena"]
+  },
+  {
+    "continent": "América",
+    "code": "CR",
+    "name": "Costa Rica 🇨🇷",
+    "cities": ["San José", "Limón", "Alajuela", "Heredia", "Cartago"]
+  },
+  {
+    "continent": "América",
+    "code": "CW",
+    "name": "Curazao 🇨🇼",
+    "cities": ["Willemstad", "Sint Michiel", "Barber", "Dorp Soto", "Newport"]
+  },
+  {
+    "continent": "América",
+    "code": "DM",
+    "name": "Dominica 🇩🇲",
+    "cities": ["Roseau", "Portsmouth", "Marigot", "Berekua", "Mahaut"]
+  },
+  {
+    "continent": "América",
+    "code": "DO",
+    "name": "República Dominicana 🇩🇴",
+    "cities": ["Santo Domingo", "Santiago de los Caballeros", "Santo Domingo Oeste", "Santo Domingo Este", "San Pedro de Macorís"]
+  },
+  {
+    "continent": "América",
+    "code": "EC",
+    "name": "Ecuador 🇪🇨",
+    "cities": ["Quito", "Guayaquil", "Cuenca", "Santo Domingo", "Machala"]
+  },
+  {
+    "continent": "América",
+    "code": "SV",
+    "name": "El Salvador 🇸🇻",
+    "cities": ["San Salvador", "Santa Ana", "San Miguel", "Mejicanos", "Santa Tecla"]
+  },
+  {
+    "continent": "América",
+    "code": "FK",
+    "name": "Islas Malvinas 🇫🇰",
+    "cities": ["Stanley", "Goose Green", "Port Howard", "Darwin", "Fox Bay"]
+  },
+  {
+    "continent": "América",
+    "code": "GF",
+    "name": "Guayana Francesa 🇬🇫",
+    "cities": ["Cayena", "Saint-Laurent-du-Maroni", "Kourou", "Matoury", "Remire-Montjoly"]
+  },
+  {
+    "continent": "América",
+    "code": "GL",
+    "name": "Groenlandia 🇬🇱",
+    "cities": ["Nuuk", "Sisimiut", "Ilulissat", "Qaqortoq", "Aasiaat"]
+  },
+  {
+    "continent": "América",
+    "code": "GD",
+    "name": "Granada 🇬🇩",
+    "cities": ["Saint George's", "Gouyave", "Grenville", "Victoria", "Sauteurs"]
+  },
+  {
+    "continent": "América",
+    "code": "GP",
+    "name": "Guadalupe 🇬🇵",
+    "cities": ["Basse-Terre", "Pointe-à-Pitre", "Les Abymes", "Baie-Mahault", "Le Gosier"]
+  },
+  {
+    "continent": "América",
+    "code": "GT",
+    "name": "Guatemala 🇬🇹",
+    "cities": ["Ciudad de Guatemala", "Mixco", "Villa Nueva", "Quetzaltenango", "San Miguel Petapa"]
+  },
+  {
+    "continent": "América",
+    "code": "GY",
+    "name": "Guyana 🇬🇾",
+    "cities": ["Georgetown", "Linden", "New Amsterdam", "Anna Regina", "Bartica"]
+  },
+  {
+    "continent": "América",
+    "code": "HT",
+    "name": "Haití 🇭🇹",
+    "cities": ["Puerto Príncipe", "Carrefour", "Delmas", "Pétion-Ville", "Cité Soleil"]
+  },
+  {
+    "continent": "América",
+    "code": "HN",
+    "name": "Honduras 🇭🇳",
+    "cities": ["Tegucigalpa", "San Pedro Sula", "La Ceiba", "Choloma", "El Progreso"]
+  },
+  {
+    "continent": "América",
+    "code": "JM",
+    "name": "Jamaica 🇯🇲",
+    "cities": ["Kingston", "Montego Bay", "Spanish Town", "Portmore", "May Pen"]
+  },
+  {
+    "continent": "América",
+    "code": "MQ",
+    "name": "Martinica 🇲🇶",
+    "cities": ["Fort-de-France", "Le Lamentin", "Le Robert", "Schoelcher", "Ducos"]
+  },
+  {
+    "continent": "América",
+    "code": "MX",
+    "name": "México 🇲🇽",
+    "cities": ["Ciudad de México", "Guadalajara", "Monterrey", "Puebla", "Tijuana"]
+  },
+  {
+    "continent": "América",
+    "code": "MS",
+    "name": "Montserrat 🇲🇸",
+    "cities": ["Plymouth (abandonada)", "Brades", "Little Bay", "St. Peter's", "Salem"]
+  },
+  {
+    "continent": "América",
+    "code": "NI",
+    "name": "Nicaragua 🇳🇮",
+    "cities": ["Managua", "León", "Masaya", "Tipitapa", "Chinandega"]
+  },
+  {
+    "continent": "América",
+    "code": "PA",
+    "name": "Panamá 🇵🇦",
+    "cities": ["Ciudad de Panamá", "San Miguelito", "Tocumen", "David", "Colón"]
+  },
+  {
+    "continent": "América",
+    "code": "PY",
+    "name": "Paraguay 🇵🇾",
+    "cities": ["Asunción", "Ciudad del Este", "San Lorenzo", "Luque", "Capiatá"]
+  },
+  {
+    "continent": "América",
+    "code": "PE",
+    "name": "Perú 🇵🇪",
+    "cities": ["Lima", "Arequipa", "Callao", "Trujillo", "Chiclayo"]
+  },
+  {
+    "continent": "América",
+    "code": "PR",
+    "name": "Puerto Rico 🇵🇷",
+    "cities": ["San Juan", "Bayamón", "Carolina", "Ponce", "Caguas"]
+  },
+  {
+    "continent": "América",
+    "code": "BL",
+    "name": "San Bartolomé 🇧🇱",
+    "cities": ["Gustavia", "Lorient", "St. Jean", "Colombier", "Flamands"]
+  },
+  {
+    "continent": "América",
+    "code": "KN",
+    "name": "San Cristóbal y Nieves 🇰🇳",
+    "cities": ["Basseterre", "Charlestown", "Sadlers", "Cayon", "Sandy Point Town"]
+  },
+  {
+    "continent": "América",
+    "code": "LC",
+    "name": "Santa Lucía 🇱🇨",
+    "cities": ["Castries", "Vieux Fort", "Micoud", "Soufrière", "Gros Islet"]
+  },
+  {
+    "continent": "América",
+    "code": "MF",
+    "name": "San Martín (parte francesa) 🇲🇫",
+    "cities": ["Marigot", "Grand Case", "Quartier-d'Orléans", "Baie-Orientale", "Terres Basses"]
+  },
+  {
+    "continent": "América",
+    "code": "PM",
+    "name": "San Pedro y Miquelón 🇵🇲",
+    "cities": ["Saint-Pierre", "Miquelon-Langlade", "L'Île-aux-Marins", "Anse à Henry", "Cap Percé"]
+  },
+  {
+    "continent": "América",
+    "code": "VC",
+    "name": "San Vicente y las Granadinas 🇻🇨",
+    "cities": ["Kingstown", "Georgetown", "Byera Village", "Chateaubelair", "Port Elizabeth"]
+  },
+  {
+    "continent": "América",
+    "code": "SX",
+    "name": "Sint Maarten (parte neerlandesa) 🇸🇽",
+    "cities": ["Philipsburg", "Lower Prince's Quarter", "Cul de Sac", "Cole Bay", "Upper Prince's Quarter"]
+  },
+  {
+    "continent": "América",
+    "code": "SR",
+    "name": "Surinam 🇸🇷",
+    "cities": ["Paramaribo", "Lelydorp", "Nieuw Nickerie", "Moengo", "Nieuw Amsterdam"]
+  },
+  {
+    "continent": "América",
+    "code": "TT",
+    "name": "Trinidad y Tobago 🇹🇹",
+    "cities": ["Puerto España", "San Fernando", "Chaguanas", "Arima", "Point Fortin"]
+  },
+  {
+    "continent": "América",
+    "code": "TC",
+    "name": "Islas Turcas y Caicos 🇹🇨",
+    "cities": ["Cockburn Town", "Providenciales", "Kew", "Bottle Creek", "Whitby"]
+  },
+  {
+    "continent": "América",
+    "code": "US",
+    "name": "Estados Unidos 🇺🇸",
+    "cities": ["Nueva York", "Boston", "Newton", "Greater Boston", "Los Ángeles", "Chicago", "Houston", "Phoenix"]
+  },
+  {
+    "continent": "América",
+    "code": "UY",
+    "name": "Uruguay 🇺🇾",
+    "cities": ["Montevideo", "Salto", "Ciudad de la Costa", "Paysandú", "Las Piedras"]
+  },
+  {
+    "continent": "América",
+    "code": "VE",
+    "name": "Venezuela 🇻🇪",
+    "cities": ["Caracas", "Maracaibo", "Valencia", "Barquisimeto", "Maracay"]
+  },
+  {
+    "continent": "América",
+    "code": "VG",
+    "name": "Islas Vírgenes Británicas 🇻🇬",
+    "cities": ["Road Town", "Spanish Town", "The Settlement", "Great Harbour", "Cane Garden Bay"]
+  },
+  {
+    "continent": "América",
+    "code": "VI",
+    "name": "Islas Vírgenes de los Estados Unidos 🇻🇮",
+    "cities": ["Charlotte Amalie", "Christiansted", "Frederiksted", "Cruz Bay", "Coral Bay"]
+  },
+  {
+    "continent": "Asia",
+    "code": "AF",
+    "name": "Afganistán 🇦🇫",
+    "cities": ["Kabul", "Herat", "Kandahar", "Mazar-e Sarif", "Jalalabad"]
+  },
+  {
+    "continent": "Asia",
+    "code": "AM",
+    "name": "Armenia 🇦🇲",
+    "cities": ["Ereván", "Guiumri", "Vanadzor", "Vagharshapat", "Hrazdan"]
+  },
+  {
+    "continent": "Asia",
+    "code": "AZ",
+    "name": "Azerbaiyán 🇦🇿",
+    "cities": ["Bakú", "Ganja", "Sumqayit", "Lankaran", "Mingachevir"]
+  },
+  {
+    "continent": "Asia",
+    "code": "BH",
+    "name": "Baréin 🇧🇭",
+    "cities": ["Manama", "Riffa", "Muharraq", "Hamad Town", "A'ali"]
+  },
+  {
+    "continent": "Asia",
+    "code": "BD",
+    "name": "Bangladés 🇧🇩",
+    "cities": ["Daca", "Chittagong", "Khulna", "Sylhet", "Rajshahi"]
+  },
+  {
+    "continent": "Asia",
+    "code": "BT",
+    "name": "Bután 🇧🇹",
+    "cities": ["Timbu", "Phuntsholing", "Paro", "Gelephu", "Jakar"]
+  },
+  {
+    "continent": "Asia",
+    "code": "BN",
+    "name": "Brunéi 🇧🇳",
+    "cities": ["Bandar Seri Begawan", "Kuala Belait", "Seria", "Tutong", "Bangar"]
+  },
+  {
+    "continent": "Asia",
+    "code": "KH",
+    "name": "Camboya 🇰🇭",
+    "cities": ["Phnom Penh", "Siem Reap", "Battambang", "Sihanoukville", "Poipet"]
+  },
+  {
+    "continent": "Asia",
+    "code": "CN",
+    "name": "China 🇨🇳",
+    "cities": ["Shanghái", "Pekín", "Chongqing", "Tianjin", "Cantón"]
+  },
+  {
+    "continent": "Asia",
+    "code": "CY",
+    "name": "Chipre 🇨🇾",
+    "cities": ["Nicosia", "Limassol", "Lárnaca", "Pafos", "Famagusta"]
+  },
+  {
+    "continent": "Asia",
+    "code": "GE",
+    "name": "Georgia 🇬🇪",
+    "cities": ["Tiflis", "Batumi", "Kutaisi", "Rustavi", "Gori"]
+  },
+  {
+    "continent": "Asia",
+    "code": "HK",
+    "name": "Hong Kong 🇭🇰",
+    "cities": ["Hong Kong", "Kowloon", "Tsuen Wan", "Yuen Long", "Tuen Mun"]
+  },
+  {
+    "continent": "Asia",
+    "code": "IN",
+    "name": "India 🇮🇳",
+    "cities": ["Mumbai", "Delhi", "Bangalore", "Kolkata", "Chennai"]
+  },
+  {
+    "continent": "Asia",
+    "code": "ID",
+    "name": "Indonesia 🇮🇩",
+    "cities": ["Yakarta", "Surabaya", "Bandung", "Medan", "Bekasi"]
+  },
+  {
+    "continent": "Asia",
+    "code": "IR",
+    "name": "Irán 🇮🇷",
+    "cities": ["Teherán", "Mashhad", "Isfahán", "Karaj", "Shiraz"]
+  },
+  {
+    "continent": "Asia",
+    "code": "IQ",
+    "name": "Irak 🇮🇶",
+    "cities": ["Bagdad", "Mosul", "Basora", "Erbil", "Kirkuk"]
+  },
+  {
+    "continent": "Asia",
+    "code": "IL",
+    "name": "Israel 🇮🇱",
+    "cities": ["Jerusalén", "Tel Aviv", "Haifa", "Rishon LeZion", "Petah Tikva"]
+  },
+  {
+    "continent": "Asia",
+    "code": "JP",
+    "name": "Japón 🇯🇵",
+    "cities": ["Tokio", "Yokohama", "Osaka", "Nagoya", "Sapporo"]
+  },
+  {
+    "continent": "Asia",
+    "code": "JO",
+    "name": "Jordania 🇯🇴",
+    "cities": ["Amán", "Zarqa", "Irbid", "Russeifa", "Aqaba"]
+  },
+  {
+    "continent": "Asia",
+    "code": "KZ",
+    "name": "Kazajistán 🇰🇿",
+    "cities": ["Astaná", "Almaty", "Shymkent", "Aktobe", "Karaganda"]
+  },
+  {
+    "continent": "Asia",
+    "code": "KW",
+    "name": "Kuwait 🇰🇼",
+    "cities": ["Kuwait City", "Hawalli", "Salmiya", "Sabah Al Salem", "Al Farwaniyah"]
+  },
+  {
+    "continent": "Asia",
+    "code": "KG",
+    "name": "Kirguistán 🇰🇬",
+    "cities": ["Biskek", "Osh", "Jalal-Abad", "Karakol", "Tokmok"]
+  },
+  {
+    "continent": "Asia",
+    "code": "LA",
+    "name": "Laos 🇱🇦",
+    "cities": ["Vientián", "Savannakhet", "Pakse", "Luang Prabang", "Thakhek"]
+  },
+  {
+    "continent": "Asia",
+    "code": "LB",
+    "name": "Líbano 🇱🇧",
+    "cities": ["Beirut", "Trípoli", "Sidón", "Tiro", "Jounieh"]
+  },
+  {
+    "continent": "Asia",
+    "code": "MO",
+    "name": "Macao 🇲🇴",
+    "cities": ["Macao", "Taipa", "Coloane", "Cotai", "Nossa Senhora de Fátima"]
+  },
+  {
+    "continent": "Asia",
+    "code": "MY",
+    "name": "Malasia 🇲🇾",
+    "cities": ["Kuala Lumpur", "George Town", "Ipoh", "Shah Alam", "Petaling Jaya"]
+  },
+  {
+    "continent": "Asia",
+    "code": "MV",
+    "name": "Maldivas 🇲🇻",
+    "cities": ["Malé", "Addu City", "Fuvahmulah", "Kulhudhuffushi", "Thinadhoo"]
+  },
+  {
+    "continent": "Asia",
+    "code": "MN",
+    "name": "Mongolia 🇲🇳",
+    "cities": ["Ulán Bator", "Erdenet", "Darkhan", "Choibalsan", "Mörön"]
+  },
+  {
+    "continent": "Asia",
+    "code": "MM",
+    "name": "Myanmar (Birmania) 🇲🇲",
+    "cities": ["Rangún", "Mandalay", "Naipyidó", "Mawlamyine", "Bago"]
+  },
+  {
+    "continent": "Asia",
+    "code": "NP",
+    "name": "Nepal 🇳🇵",
+    "cities": ["Katmandú", "Pokhara", "Lalitpur", "Bharatpur", "Biratnagar"]
+  },
+  {
+    "continent": "Asia",
+    "code": "OM",
+    "name": "Omán 🇴🇲",
+    "cities": ["Mascate", "Seeb", "Salalah", "Bawshar", "Sohar"]
+  },
+  {
+    "continent": "Asia",
+    "code": "PK",
+    "name": "Pakistán 🇵🇰",
+    "cities": ["Karachi", "Lahore", "Faisalabad", "Rawalpindi", "Gujranwala"]
+  },
+  {
+    "continent": "Asia",
+    "code": "PH",
+    "name": "Filipinas 🇵🇭",
+    "cities": ["Manila", "Quezon City", "Davao City", "Caloocan", "Cebu City"]
+  },
+  {
+    "continent": "Asia",
+    "code": "QA",
+    "name": "Catar 🇶🇦",
+    "cities": ["Doha", "Al Rayyan", "Al Wakrah", "Umm Salal Mohammed", "Al Khor"]
+  },
+  {
+    "continent": "Asia",
+    "code": "SA",
+    "name": "Arabia Saudita 🇸🇦",
+    "cities": ["Riad", "Yeda", "La Meca", "Medina", "Dammam"]
+  },
+  {
+    "continent": "Asia",
+    "code": "SG",
+    "name": "Singapur 🇸🇬",
+    "cities": ["Singapur", "Jurong Town", "Woodlands", "Tampines", "Sengkang"]
+  },
+  {
+    "continent": "Asia",
+    "code": "KR",
+    "name": "Corea del Sur 🇰🇷",
+    "cities": ["Seúl", "Busan", "Incheon", "Daegu", "Daejeon"]
+  },
+  {
+    "continent": "Asia",
+    "code": "LK",
+    "name": "Sri Lanka 🇱🇰",
+    "cities": ["Colombo", "Dehiwala-Mount Lavinia", "Moratuwa", "Sri Jayawardenepura Kotte", "Negombo"]
+  },
+  {
+    "continent": "Asia",
+    "code": "SY",
+    "name": "Siria 🇸🇾",
+    "cities": ["Damasco", "Alepo", "Homs", "Latakia", "Hama"]
+  },
+  {
+    "continent": "Asia",
+    "code": "TW",
+    "name": "Taiwán 🇹🇼",
+    "cities": ["Taipéi", "Kaohsiung", "Taichung", "Tainan", "Nuevo Taipéi"]
+  },
+  {
+    "continent": "Asia",
+    "code": "TJ",
+    "name": "Tayikistán 🇹🇯",
+    "cities": ["Dusambé", "Khujand", "Bokhtar", "Kulob", "Istaravshan"]
+  },
+  {
+    "continent": "Asia",
+    "code": "TH",
+    "name": "Tailandia 🇹🇭",
+    "cities": ["Bangkok", "Nonthaburi", "Nakhon Ratchasima", "Chiang Mai", "Hat Yai"]
+  },
+  {
+    "continent": "Asia",
+    "code": "TL",
+    "name": "Timor Oriental 🇹🇱",
+    "cities": ["Dili", "Baucau", "Maliana", "Suai", "Lospalos"]
+  },
+  {
+    "continent": "Asia",
+    "code": "TR",
+    "name": "Turquía 🇹🇷",
+    "cities": ["Estambul", "Ankara", "Esmirna", "Bursa", "Adana"]
+  },
+  {
+    "continent": "Asia",
+    "code": "TM",
+    "name": "Turkmenistán 🇹🇲",
+    "cities": ["Asjabad", "Türkmenabat", "Daşoguz", "Mary", "Balkanabat"]
+  },
+  {
+    "continent": "Asia",
+    "code": "AE",
+    "name": "Emiratos Árabes Unidos 🇦🇪",
+    "cities": ["Dubái", "Abu Dabi", "Sharjah", "Al Ain", "Ajman"]
+  },
+  {
+    "continent": "Asia",
+    "code": "UZ",
+    "name": "Uzbekistán 🇺🇿",
+    "cities": ["Taskent", "Samarcanda", "Bujará", "Namangan", "Andijon"]
+  },
+  {
+    "continent": "Asia",
+    "code": "VN",
+    "name": "Vietnam 🇻🇳",
+    "cities": ["Ho Chi Minh", "Hanoi", "Da Nang", "Haiphong", "Can Tho"]
+  },
+  {
+    "continent": "Asia",
+    "code": "YE",
+    "name": "Yemen 🇾🇪",
+    "cities": ["Saná", "Adén", "Taiz", "Al Hudaydah", "Ibb"]
+  },
+  {
+    "continent": "Europa",
+    "code": "AX",
+    "name": "Islas de Åland 🇦🇽",
+    "cities": ["Mariehamn", "Jomala", "Finström", "Lemland", "Saltvik"]
+  },
+  {
+    "continent": "Europa",
+    "code": "AL",
+    "name": "Albania 🇦🇱",
+    "cities": ["Tirana", "Durrës", "Vlorë", "Shkodër", "Elbasan"]
+  },
+  {
+    "continent": "Europa",
+    "code": "AD",
+    "name": "Andorra 🇦🇩",
+    "cities": ["Andorra la Vella", "Escaldes-Engordany", "Encamp", "La Massana", "Sant Julià de Lòria"]
+  },
+  {
+    "continent": "Europa",
+    "code": "AT",
+    "name": "Austria 🇦🇹",
+    "cities": ["Viena", "Graz", "Linz", "Salzburgo", "Innsbruck"]
+  },
+  {
+    "continent": "Europa",
+    "code": "BE",
+    "name": "Bélgica 🇧🇪",
+    "cities": ["Bruselas", "Amberes", "Gante", "Charleroi", "Lieja"]
+  },
+  {
+    "continent": "Europa",
+    "code": "BA",
+    "name": "Bosnia y Herzegovina 🇧🇦",
+    "cities": ["Sarajevo", "Banja Luka", "Tuzla", "Zenica", "Mostar"]
+  },
+  {
+    "continent": "Europa",
+    "code": "BG",
+    "name": "Bulgaria 🇧🇬",
+    "cities": ["Sofía", "Plovdiv", "Varna", "Burgas", "Ruse"]
+  },
+  {
+    "continent": "Europa",
+    "code": "HR",
+    "name": "Croacia 🇭🇷",
+    "cities": ["Zagreb", "Split", "Rijeka", "Osijek", "Zadar"]
+  },
+  {
+    "continent": "Europa",
+    "code": "CZ",
+    "name": "Chequia 🇨🇿",
+    "cities": ["Praga", "Brno", "Ostrava", "Pilsen", "Liberec"]
+  },
+  {
+    "continent": "Europa",
+    "code": "DK",
+    "name": "Dinamarca 🇩🇰",
+    "cities": ["Copenhague", "Aarhus", "Odense", "Aalborg", "Esbjerg"]
+  },
+  {
+    "continent": "Europa",
+    "code": "EE",
+    "name": "Estonia 🇪🇪",
+    "cities": ["Tallin", "Tartu", "Narva", "Pärnu", "Kohtla-Järve"]
+  },
+  {
+    "continent": "Europa",
+    "code": "FO",
+    "name": "Islas Feroe 🇫🇴",
+    "cities": ["Tórshavn", "Klaksvík", "Hoyvík", "Argir", "Fuglafjørður"]
+  },
+  {
+    "continent": "Europa",
+    "code": "FI",
+    "name": "Finlandia 🇫🇮",
+    "cities": ["Helsinki", "Espoo", "Tampere", "Vantaa", "Oulu"]
+  },
+  {
+    "continent": "Europa",
+    "code": "FR",
+    "name": "Francia 🇫🇷",
+    "cities": ["París", "Marsella", "Lyon", "Toulouse", "Niza"]
+  },
+  {
+    "continent": "Europa",
+    "code": "DE",
+    "name": "Alemania 🇩🇪",
+    "cities": ["Berlín", "Hamburgo", "Múnich", "Colonia", "Fráncfort"]
+  },
+  {
+    "continent": "Europa",
+    "code": "GI",
+    "name": "Gibraltar 🇬🇮",
+    "cities": ["Gibraltar", "Upper Rock", "Westside", "Eastside", "South District"]
+  },
+  {
+    "continent": "Europa",
+    "code": "GR",
+    "name": "Grecia 🇬🇷",
+    "cities": ["Atenas", "Salónica", "Patras", "Heraklion", "Larissa"]
+  },
+  {
+    "continent": "Europa",
+    "code": "GG",
+    "name": "Guernsey 🇬🇬",
+    "cities": ["Saint Peter Port", "Saint Sampson", "Vale", "Castel", "Saint Martin"]
+  },
+  {
+    "continent": "Europa",
+    "code": "HU",
+    "name": "Hungría 🇭🇺",
+    "cities": ["Budapest", "Debrecen", "Szeged", "Miskolc", "Pécs"]
+  },
+  {
+    "continent": "Europa",
+    "code": "IS",
+    "name": "Islandia 🇮🇸",
+    "cities": ["Reikiavik", "Kópavogur", "Hafnarfjörður", "Reykjanesbær", "Akureyri"]
+  },
+  {
+    "continent": "Europa",
+    "code": "IE",
+    "name": "Irlanda 🇮🇪",
+    "cities": ["Dublín", "Cork", "Limerick", "Galway", "Waterford"]
+  },
+  {
+    "continent": "Europa",
+    "code": "IM",
+    "name": "Isla de Man 🇮🇲",
+    "cities": ["Douglas", "Onchan", "Ramsey", "Peel", "Port Erin"]
+  },
+  {
+    "continent": "Europa",
+    "code": "IT",
+    "name": "Italia 🇮🇹",
+    "cities": ["Roma", "Milán", "Nápoles", "Turín", "Palermo"]
+  },
+  {
+    "continent": "Europa",
+    "code": "JE",
+    "name": "Jersey 🇯🇪",
+    "cities": ["Saint Helier", "Saint Saviour", "Saint Clement", "Saint Brelade", "Grouville"]
+  },
+  {
+    "continent": "Europa",
+    "code": "XK",
+    "name": "Kosovo 🇽🇰",
+    "cities": ["Pristina", "Prizren", "Gjilan", "Peć", "Mitrovica"]
+  },
+  {
+    "continent": "Europa",
+    "code": "LV",
+    "name": "Letonia 🇱🇻",
+    "cities": ["Riga", "Daugavpils", "Liepāja", "Jelgava", "Jūrmala"]
+  },
+  {
+    "continent": "Europa",
+    "code": "LI",
+    "name": "Liechtenstein 🇱🇮",
+    "cities": ["Schaan", "Vaduz", "Triesen", "Balzers", "Eschen"]
+  },
+  {
+    "continent": "Europa",
+    "code": "LT",
+    "name": "Lituania 🇱🇹",
+    "cities": ["Vilna", "Kaunas", "Klaipėda", "Šiauliai", "Panevėžys"]
+  },
+  {
+    "continent": "Europa",
+    "code": "LU",
+    "name": "Luxemburgo 🇱🇺",
+    "cities": ["Luxemburgo", "Esch-sur-Alzette", "Differdange", "Dudelange", "Pétange"]
+  },
+  {
+    "continent": "Europa",
+    "code": "MT",
+    "name": "Malta 🇲🇹",
+    "cities": ["Birkirkara", "Mosta", "Qormi", "Żabbar", "Naxxar"]
+  },
+  {
+    "continent": "Europa",
+    "code": "MD",
+    "name": "Moldavia 🇲🇩",
+    "cities": ["Chisináu", "Tiráspol", "Bălți", "Tighina (Bender)", "Rîbnița"]
+  },
+  {
+    "continent": "Europa",
+    "code": "MC",
+    "name": "Mónaco 🇲🇨",
+    "cities": ["Montecarlo", "La Condamine", "Fontvieille", "Moneghetti", "Monaco-Ville"]
+  },
+  {
+    "continent": "Europa",
+    "code": "ME",
+    "name": "Montenegro 🇲🇪",
+    "cities": ["Podgorica", "Nikšić", "Pljevlja", "Bijelo Polje", "Cetinje"]
+  },
+  {
+    "continent": "Europa",
+    "code": "NL",
+    "name": "Países Bajos 🇳🇱",
+    "cities": ["Ámsterdam", "Róterdam", "La Haya", "Utrecht", "Eindhoven"]
+  },
+  {
+    "continent": "Europa",
+    "code": "MK",
+    "name": "Macedonia del Norte 🇲🇰",
+    "cities": ["Skopie", "Bitola", "Kumanovo", "Prilep", "Tetovo"]
+  },
+  {
+    "continent": "Europa",
+    "code": "NO",
+    "name": "Noruega 🇳🇴",
+    "cities": ["Oslo", "Bergen", "Trondheim", "Stavanger", "Drammen"]
+  },
+  {
+    "continent": "Europa",
+    "code": "PL",
+    "name": "Polonia 🇵🇱",
+    "cities": ["Varsovia", "Cracovia", "Łódź", "Wrocław", "Poznań"]
+  },
+  {
+    "continent": "Europa",
+    "code": "PT",
+    "name": "Portugal 🇵🇹",
+    "cities": ["Lisboa", "Oporto", "Vila Nova de Gaia", "Amadora", "Braga"]
+  },
+  {
+    "continent": "Europa",
+    "code": "RO",
+    "name": "Rumania 🇷🇴",
+    "cities": ["Bucarest", "Cluj-Napoca", "Timișoara", "Iași", "Constanza"]
+  },
+  {
+    "continent": "Europa",
+    "code": "SM",
+    "name": "San Marino 🇸🇲",
+    "cities": ["Serravalle", "Borgo Maggiore", "Ciudad de San Marino", "Domagnano", "Fiorentino"]
+  },
+  {
+    "continent": "Europa",
+    "code": "RS",
+    "name": "Serbia 🇷🇸",
+    "cities": ["Belgrado", "Novi Sad", "Niš", "Kragujevac", "Subotica"]
+  },
+  {
+    "continent": "Europa",
+    "code": "SK",
+    "name": "Eslovaquia 🇸🇰",
+    "cities": ["Bratislava", "Košice", "Prešov", "Žilina", "Banská Bystrica"]
+  },
+  {
+    "continent": "Europa",
+    "code": "SI",
+    "name": "Eslovenia 🇸🇮",
+    "cities": ["Liubliana", "Maribor", "Celje", "Kranj", "Velenje"]
+  },
+  {
+    "continent": "Europa",
+    "code": "ES",
+    "name": "España 🇪🇸",
+    "cities": ["Madrid", "Barcelona", "Valencia", "Sevilla", "Zaragoza"]
+  },
+  {
+    "continent": "Europa",
+    "code": "SJ",
+    "name": "Svalbard y Jan Mayen 🇸🇯",
+    "cities": ["Longyearbyen", "Barentsburg", "Ny-Ålesund", "Sveagruva", "Pyramiden"]
+  },
+  {
+    "continent": "Europa",
+    "code": "SE",
+    "name": "Suecia 🇸🇪",
+    "cities": ["Estocolmo", "Gotemburgo", "Malmö", "Uppsala", "Västerås"]
+  },
+  {
+    "continent": "Europa",
+    "code": "CH",
+    "name": "Suiza 🇨🇭",
+    "cities": ["Zúrich", "Ginebra", "Basilea", "Lausana", "Berna"]
+  },
+  {
+    "continent": "Europa",
+    "code": "UA",
+    "name": "Ucrania 🇺🇦",
+    "cities": ["Kiev", "Járkov", "Odesa", "Dnipró", "Donetsk"]
+  },
+  {
+    "continent": "Europa",
+    "code": "GB",
+    "name": "Reino Unido 🇬🇧",
+    "cities": ["Londres", "Birmingham", "Mánchester", "Glasgow", "Liverpool"]
+  }
+]

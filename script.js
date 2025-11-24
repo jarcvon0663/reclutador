@@ -1,73 +1,43 @@
-// Tecnologías comunes para autocompletado
-const commonTechs = [
-  '.NET', 'A/B Testing', 'ACE', 'ActiveJob', 'ActiveMQ', 'ActiveStorage', 'Actor Model', 'AdonisJS', 'AI',
-  'Airflow', 'Akka', 'Akka HTTP', 'Alpakka', 'Alpine.js', 'Amethyst', 'Android SDK', 'Anaconda',
-  'Ansible', 'Apache', 'Apache Camel', 'Apache Wicket', 'API Platform', 'Apollo Client', 'ArangoDB',
-  'Arm64', 'ASP.NET', 'ASP.NET Core', 'ASP.NET MVC', 'Astro', 'AsyncAPI', 'Autotools', 'AWS',
-  'AWS Kinesis', 'Axum', 'Backbone.js', 'Bash', 'Beego', 'Bevy', 'BigQuery', 'Bigtable', 'BLAS',
-  'Blazor', 'Blazor Server', 'Blazor WebAssembly', 'Blockchain', 'Bluesky', 'Bootstrap', 'Bottle',
-  'Buffalo', 'C', 'C Libs (libuv)', 'C#', 'C++', 'C++ Boost', 'CakePHP', 'Capacitor', 'Capybara',
-  'Cats Effect', 'CEF', 'Celery', 'Cassandra', 'CesiumJS', 'Chart.js', 'Chef', 'Chi', 'CMake',
-  'Cloud Run', 'Cloudflare', 'CloudFront', 'Clojure', 'Closure', 'CMake', 'CodeIgniter', 'ColdFusion',
-  'Combine', 'Composer', 'Conan', 'Concourse', 'Consul', 'Connexion', 'Coroutines', 'CPU Arch',
-  'CPPRESTSDK', 'CryEngine', 'CSV', 'CUDA', 'D3.js', 'Dagger', 'Data Science', 'DataMapper', 'Datadog',
-  'DBT', 'Deep Learning', 'Deno', 'Diesel', 'Django', 'Docker', 'Doctrine ORM', 'Dropwizard',
-  'Druid', 'DSP', 'Echo', 'EC2', 'Electron', 'Electron.NET', 'Elasticsearch', 'Elixir', 'Ember.js',
-  'Entity Framework', 'Erlang', 'ETL', 'Express', 'F2PY', 'Falcon', 'FastAPI', 'Fasthttp', 'Feature Flags',
-  'Fiber', 'Figma', 'Firebase', 'Flask', 'FLAP', 'Flash', 'Flutter', 'Fortran', 'Fortran2008',
-  'FPGA', 'Frontity', 'GA4', 'Gatsby', 'GCC Toolchain', 'GCP', 'GCS', 'Gensim', 'Git', 'GitLab CI',
-  'GLSL', 'Gluon', 'Go', 'Go-Kit', 'GORM (Go)', 'GCP', 'GraalVM', 'Grafana', 'Gradle',
-  'GraphQL', 'Gridsome', 'gRPC C++', 'grpc-go', 'Guice', 'Gunicorn', 'Gulp', 'Hadoop', 'HAF',
-  'HAProxy', 'Hanami', 'Hasura', 'HDF5', 'HikariCP', 'Highcharts', 'Hilt', 'HLS', 'HTML5',
-  'HTTP/2', 'Hybrid Apps', 'Hyper', 'IaC', 'IBM MQ', 'ICPC', 'ICU', 'InfluxDB', 'InVision',
-  'Intel Fortran', 'Ionic', 'IPython', 'Istio', 'JAX', 'Jakarta EE', 'Java', 'Java EE', 'JavaFX',
-  'JavaServer Faces', 'Java Servlets', 'Jenkins', 'Jetpack Compose', 'JQuery', 'JRuby', 'JSON',
-  'Jupyter', 'JupyterLab', 'JUnit', 'Kafka', 'Kafka Streams Scala', 'K6', 'Keras', 'Kotlin', 'Ktor',
-  'LangChain', 'Lagom', 'LaunchDarkly', 'Leaflet', 'Less', 'libevent', 'Libuv', 'LightGBM',
-  'Lift', 'Linkerd', 'Linux', 'Lit', 'LitElement', 'LLMOps', 'Load Balancer', 'Looker', 'Looker Studio',
-  'LPWAN', 'Lumen', 'Lua', 'Machine Learning', 'MAUI', 'MariaDB', 'Marshmallow', 'Material UI',
-  'Materialize', 'MATLAB', 'Maven', 'Memcached', 'Metabase', 'METAL', 'Microservices', 'Micronaut',
-  'MLflow', 'MobX', 'MongoDB', 'Mono', 'Monix', 'MPI', 'MySQL', 'NATS', 'NancyFX', 'Neo4j',
-  'NestJS', 'NetCDF', 'New Relic', 'Next.js', 'NextAuth', 'Nginx', 'Nix', 'Node.js', 'NPM',
-  'Nuxt.js', 'Object Storage', 'Odoo', 'OkHttp', 'ONNX', 'OpenACC', 'OpenAI API', 'OpenCV',
-  'OpenFaaS', 'OpenID Connect', 'OpenMP', 'OpenResty', 'OpenShift', 'OpenSSL', 'OpenStack',
-  'OpenTelemetry', 'OpenTelemetry Collector', 'OpenVPN', 'OpsGenie', 'ORM', 'ORMAlchemy', 'OW',
-  'OWASP', 'OWASP ZAP', 'PaaS', 'Padrino', 'Parcel', 'Peewee', 'PHPMailer', 'Phalcon', 'Phusion Passenger',
-  'Pinecone', 'Play Framework', 'Playwright', 'PnPM', 'Poco', 'Pod Security', 'Podman', 'POSIX Threads',
-  'PostGIS', 'PostgreSQL', 'Postman', 'Power BI', 'PowerShell', 'Preact', 'Prisma', 'Protobuf', 'Protobuf C++',
-  'ProtoBuf', 'Python', 'PyQt', 'Pydantic', 'Pyramid', 'Quarkus', 'Quicksight', 'Quarkus', 'QML',
-  'QT', 'RabbitMQ', 'RabbitMQ Streams', 'Rancher', 'React', 'React Native', 'React Query', 'Redis',
-  'Redux', 'RedShift', 'Remix', 'Render', 'Repo Management', 'Report Server', 'REST API', 'RESTful', 'Retrofit',
-  'RISC-V', 'Roda', 'Rocket', 'Ruby', 'Ruby on Rails', 'Rust', 'RxJava', 'RxKotlin', 'S3',
-  'Salesforce', 'Sanic', 'SAP', 'Scala', 'Scikit-learn', 'Scalatra', 'Scrapy', 'Scrum', 'SeaORM',
-  'Segment', 'Sequelize', 'Sentry', 'Sentry.io', 'Service Mesh', 'ServiceNow', 'SFTP', 'Shell', 'SignalR',
-  'Sketch', 'Slack API', 'Slim', 'SLURM', 'Skaffold', 'Sklearn', 'Slick', 'Slim', 'Snowflake',
-  'Socket.IO', 'Socket Programming', 'Sodium', 'SOA', 'Solidity', 'Solid.js', 'SonarQube', 'Sonic',
-  'SOP', 'Spark', 'Spark Scala', 'Splunk', 'Spring', 'Spring Boot', 'Spring Cloud', 'Spring MVC',
-  'SQL', 'SQLite', 'SQS', 'SST', 'Stencil', 'Stripe', 'StrongSwan', 'Svelte', 'Swagger',
-  'Swift', 'SwiftUI', 'SystemVerilog', 'Tableau', 'Tailwind CSS', 'TanStack Query', 'Tasmota', 'TCP/IP',
-  'Terraform', 'Thrift', 'TimescaleDB', 'Tide', 'Tokio', 'Traefik', 'Trunk', 'Triton', 'Tritium',
-  'Turbopack', 'Twisted', 'TypeORM', 'TypeScript', 'Ubuntu', 'UI/UX', 'UNIX', 'Unity', 'Unreal Engine',
-  'Uvicorn', 'Vaadin', 'Vagrant', 'Varnish', 'Vault', 'Vector Databases', 'Verilog', 'Vert.x',
-  'VHDL', 'Vite', 'VPC', 'Vue.js', 'Vulkan', 'WAF', 'WASM', 'Wasm-bindgen', 'Web Components',
-  'Webpack', 'WinForms', 'WireGuard', 'WPF', 'wxWidgets', 'XML', 'Xamarin', 'XGBoost', 'Yeoman',
-  'Yew', 'ZIO', 'Zig', 'Zsh', 'Zulip'
-];
-
 // Estado global
 let selectedTechs = [];
 let history = [];
 let countriesData = [];
 let driverObj = null;
+let commonTechs = [];
 
 // Inicialización
 document.addEventListener("DOMContentLoaded", () => {
+  loadTechnologies();
   loadCountriesFromJSON();
   loadHistory();
   initTheme();
   setupEventListeners();
   initOnboarding();
 });
+
+// Cargar tecnologías desde JSON
+function loadTechnologies() {
+  fetch('technologies.json')
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('No se pudo cargar technologies.json');
+      }
+      return response.json();
+    })
+    .then(data => {
+      commonTechs = data.technologies.sort((a, b) => a.localeCompare(b));
+      console.log(`✅ ${commonTechs.length} tecnologías cargadas correctamente`);
+    })
+    .catch(error => {
+      console.error('Error al cargar technologies.json:', error);
+      // Fallback con algunas tecnologías básicas si falla la carga
+      commonTechs = [
+        'JavaScript', 'Python', 'Java', 'C++', 'C#', 'React', 'Node.js', 
+        'Angular', 'Vue.js', 'Docker', 'Kubernetes', 'AWS', 'Azure'
+      ];
+      showToast('Could not load full technology list');
+    });
+}
 
 // Configurar todos los event listeners
 function setupEventListeners() {
@@ -78,6 +48,46 @@ function setupEventListeners() {
   // Autocompletado de tecnologías
   keywordsInput.addEventListener('input', handleKeywordInput);
   keywordsInput.addEventListener('keydown', handleKeywordKeydown);
+
+  // Keyup adicional para móviles (algunos teclados virtuales)
+  keywordsInput.addEventListener('keyup', (e) => {
+    if (e.key === 'Enter' || e.keyCode === 13) {
+      const value = keywordsInput.value.trim();
+      if (value) {
+        addTech(value);
+        keywordsInput.value = '';
+        suggestionsDiv.classList.remove('active');
+      }
+    }
+  });
+
+  // Blur event
+  keywordsInput.addEventListener('blur', handleKeywordBlur);
+  
+  // Botón para agregar tecnología (especialmente útil en móviles)
+  if (btnAddTech) {
+    btnAddTech.addEventListener('click', (e) => {
+      e.preventDefault();
+      const value = keywordsInput.value.trim();
+      if (value) {
+        addTech(value);
+        keywordsInput.value = '';
+        suggestionsDiv.classList.remove('active');
+        keywordsInput.focus();
+      }
+    });
+    
+    // Prevenir que el botón envíe el formulario
+    btnAddTech.addEventListener('touchstart', (e) => {
+      e.preventDefault();
+      const value = keywordsInput.value.trim();
+      if (value) {
+        addTech(value);
+        keywordsInput.value = '';
+        suggestionsDiv.classList.remove('active');
+      }
+    }, { passive: false });
+  }
   
   // Cerrar sugerencias al hacer clic fuera
   document.addEventListener('click', (e) => {
@@ -112,10 +122,22 @@ function setupEventListeners() {
 
 // Manejo del input de keywords
 function handleKeywordInput(e) {
-  const value = e.target.value.trim();
+  const value = e.target.value;
   const suggestionsDiv = document.getElementById('suggestions');
   
-  if (value.length >= 2) {
+  // Detectar si se escribió una coma
+  if (value.includes(',')) {
+    const parts = value.split(',');
+    const techToAdd = parts[0].trim();
+    if (techToAdd) {
+      addTech(techToAdd);
+      e.target.value = parts.slice(1).join(',').trim();
+    }
+    suggestionsDiv.classList.remove('active');
+    return;
+  }
+  
+  if (value.trim().length >= 2) {
     const matches = commonTechs.filter(tech => 
       tech.toLowerCase().includes(value.toLowerCase()) &&
       !selectedTechs.includes(tech)
@@ -131,7 +153,8 @@ function handleKeywordKeydown(e) {
   const keywordsInput = document.getElementById('keywords');
   const suggestionsDiv = document.getElementById('suggestions');
   
-  if (e.key === 'Enter' || e.key === ',') {
+  // Enter key
+  if (e.key === 'Enter' || e.keyCode === 13) {
     e.preventDefault();
     const value = keywordsInput.value.trim();
     if (value) {
@@ -139,7 +162,32 @@ function handleKeywordKeydown(e) {
       keywordsInput.value = '';
       suggestionsDiv.classList.remove('active');
     }
+    return false;
   }
+  
+  // Comma key
+  if (e.key === ',' || e.keyCode === 188) {
+    e.preventDefault();
+    const value = keywordsInput.value.trim();
+    if (value) {
+      addTech(value);
+      keywordsInput.value = '';
+      suggestionsDiv.classList.remove('active');
+    }
+    return false;
+  }
+}
+
+// Nuevo: Manejo cuando el input pierde el foco (blur)
+function handleKeywordBlur(e) {
+  const keywordsInput = e.target;
+  const value = keywordsInput.value.trim();
+  
+  // Esperar un poco para permitir que el click en sugerencias funcione
+  setTimeout(() => {
+    const suggestionsDiv = document.getElementById('suggestions');
+    suggestionsDiv.classList.remove('active');
+  }, 200);
 }
 
 // Mostrar sugerencias de autocompletado

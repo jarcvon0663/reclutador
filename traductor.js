@@ -189,7 +189,7 @@ const i18n = {
 // Idiomas disponibles con banderas
 const locales = [
   { code: 'en', flag: '🇺🇸', name: 'English' },
-  { code: 'es', flag: '🇪🇸', name: 'Español' },
+  { code: 'es', flag: '🇨🇴', name: 'Español' },
   { code: 'pt', flag: '🇵🇹', name: 'Português' },
   { code: 'fr', flag: '🇫🇷', name: 'Français' },
   { code: 'de', flag: '🇩🇪', name: 'Deutsch' },

@@ -137,6 +137,43 @@ body {
   transition: all 0.2s ease;
 }
 
+/* Input con botón para agregar tecnología */
+.input-button-wrapper {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.input-button-wrapper input {
+  flex: 1;
+}
+
+.btn-add-tech {
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--secondary);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 18px;
+}
+
+.btn-add-tech:hover {
+  background: #0d9468;
+  transform: scale(1.05);
+}
+
+.btn-add-tech:active {
+  transform: scale(0.95);
+}
+
 .form-group input:focus,
 .form-group select:focus {
   outline: none;
@@ -531,12 +568,12 @@ body {
 @media (max-width: 768px) {
   .container {
     padding: 15px;
-    margin-top: 15px;
   }
 
   .header {
     flex-direction: column;
     align-items: center;
+    margin-top: 15px;
   }
 
   .header h1 {

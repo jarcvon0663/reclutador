@@ -291,7 +291,7 @@
     "continent": "América",
     "code": "US",
     "name": "Estados Unidos 🇺🇸",
-    "cities": ["Nueva York", "Boston", "Newton", "Greater Boston", "Los Ángeles", "Chicago", "Houston", "Phoenix"]
+    "cities": ["Nueva York", "Boston", "Newton", "Greater Boston", "Los Ángeles", "Chicago", "Houston", "Phoenix", "Minneapolis"]
   },
   {
     "continent": "América",
@@ -905,4 +905,5 @@
     "name": "Reino Unido 🇬🇧",
     "cities": ["Londres", "Birmingham", "Mánchester", "Glasgow", "Liverpool"]
   }
+
 ]
